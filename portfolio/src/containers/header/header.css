@@ -1,99 +1,70 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#header {
-    height: calc(100vh - 5rem);
-    width: 100vw;
-    max-width: 90vw;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-}
-
-.background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 0;
-    object-fit: cover;
-    height: 100vh;
-}
-
-.introContent {
-    height: 100vh;
-    width: 50vw;
-    padding: 2rem;
-    z-index: 1;
-    font-size: 3rem;
-    font-weight: bold;
+.header {
     display: flex;
+}
+
+.header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
-    justify-content: center;
+    margin-right: 5rem;
 }
 
-.hello {
-    font-size: 1.75rem;
+.header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04rem;
+}
+.header-content p {
+    font-family: var(--font-family);
+    font-size: 20px;
     font-weight: normal;
+    line-height: 27px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
 }
 
-.introName {
-    color: yellow;
-}
-
-.introParagraph {
-    font-size: medium;
-    font-weight: normal;
-    letter-spacing: 1px;
-}
-
-.introButton {
-    border: none;
-    background-color: white;
-    color: black;
+.header-image {
+    flex: 1;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 0 1rem;
-    border-radius: 2rem;
-    margin: 1rem 0;
+    align-items: center;
+}
+.header-image img{
+    width: 100%;
+    height: 100%;
 }
 
-@media screen and (max-width:840px) {
-    .background {
-        right: -10vw;
+@media screen and (max-width: 1050px) {
+    .header {
+        flex-direction: column;
     }
-    .introContent {
-        font-size: 10vw;
+    .header-content {
+        margin: 0 0 3rem;
     }
-    .hello {
-        font-size: 4.5vw;
+}
+
+@media screen and (max-width: 650px) {
+    .header h1 {
+        font-size: 47px;
+        line-height: 60px;
+    }
+    .header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .header h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .header p {
+        font-size: 14px;
+        line-height: 24px;
     }
 }
