@@ -1,5 +1,5 @@
 import React from 'react'
-import './aboutMe.css'
+import './cv.css'
 import { Feature } from '../../components'
 
 const AboutMe = () => {
