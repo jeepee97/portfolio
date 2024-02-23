@@ -5,8 +5,8 @@ import { Header, AboutMe } from '../../containers'
 
 const Home = () => {
     return (
-        <div className="App">
-            <div className='gradient__bg'>
+        <div className="home">
+            <div className='home-content gradient__bg'>
                 <Navbar/>
                 <Header/>
             </div>

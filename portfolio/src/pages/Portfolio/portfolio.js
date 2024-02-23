@@ -1,12 +1,19 @@
 import React from 'react'
 import './portfolio.css'
+import { Navbar } from '../../components'
+import { CV } from '../../containers'
 
-const Portfolio = () => {
+const AboutMe = () => {
     return (
-        <div>
-            PORTFOLIO
+        <div className="about">
+            <div className='about-navbar gradient__bg'>
+                <Navbar/>
+            </div>
+            <div className='about-content'>
+
+            </div>
         </div>
     )
 }
 
-export default Portfolio
+export default AboutMe

@@ -1,12 +1,19 @@
 import React from 'react'
 import './clients.css'
+import { Navbar } from '../../components'
+import { CV } from '../../containers'
 
-const Clients = () => {
+const AboutMe = () => {
     return (
-        <div>
-            CLIENTS
+        <div className="about">
+            <div className='about-navbar gradient__bg'>
+                <Navbar/>
+            </div>
+            <div className='about-content'>
+
+            </div>
         </div>
     )
 }
 
-export default Clients
+export default AboutMe

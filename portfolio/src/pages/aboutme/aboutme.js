@@ -6,8 +6,10 @@ import { CV } from '../../containers'
 const AboutMe = () => {
     return (
         <div className="about">
-            <div className='gradient__bg'>
+            <div className='about-navbar gradient__bg'>
                 <Navbar/>
+            </div>
+            <div className='about-content'>
                 <CV/>
             </div>
         </div>
