@@ -3,8 +3,10 @@ import './aboutMe.css'
 
 const AboutMe = () => {
     return (
-        <div>
-            AboutMe
+        <div className='aboutme section__margin' id='about'>
+            <div className='aboutme-feature'>
+                
+            </div>
         </div>
     )
 }
