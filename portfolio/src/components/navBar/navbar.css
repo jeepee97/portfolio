@@ -1,45 +1,70 @@
 .navbar {
-    height: 5rem;
-    width: 100vw;
-    max-width: 90vw;
-    margin: 0 auto;
-    padding: 1rem 2rem;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 3;
+    align-items: center;
+
+    padding: 2rem 2rem;
 }
 
-.logo {
-    object-fit: cover; /*do not strech image*/
-    height: 4rem;
-    width: 4rem;
+.navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.desktopMenuListItem {
-    margin: 1rem;
-    cursor: pointer
+.navbar-links_logo {
+    margin-right: 2rem;
+}
+.navbar-links_logo img {
+    width: 100px;
+    height: 100px;
 }
 
-.desktopMenuListItem:hover {
-    color: yellow;
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+.navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+.navbar-contact {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar-links_container p,
+.navbar-sign p,
+.navbar-menu_container p {
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.navbar-links_container a {
+    text-decoration: none;
 }
 
-.desktopMenuButton {
+.navbar-contact button,
+.navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    left: 1153px;
+    top: 55px;
+
+    background: var(--color-orange);
+    border-radius: 2rem;
+
     border: none;
-    background-color: white;
-    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 1rem;
-    border-radius: 2rem;
-}
-
-.desktopMenuImage {
-    object-fit: cover;
+    cursor: pointer;
 }

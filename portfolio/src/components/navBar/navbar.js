@@ -1,24 +1,33 @@
 import React from 'react';
-import './navbar.css';
 import logo from '../../assets/BasicLogo.png'
- import messageLogo from '../../assets/messageLogo2.png'
+import messageLogo from '../../assets/MessageLogo.png'
+
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+
+import './navbar.css';
 import {Link} from 'react-scroll';
 
 const Navbar = () => {
     return (
-        <nav className='navbar'>
-            <img src={logo} alt="Logo" className='logo'/>
-            <div className='desktopMenu'>
-                <Link className="desktopMenuListItem">Home</Link>
-                <Link className="desktopMenuListItem">Portfolio</Link>
-                <Link className="desktopMenuListItem">About</Link>
-                <Link className="desktopMenuListItem">Clients</Link>
+        <div className="navbar">
+            <div className='navbar-links'>
+                <div className='navbar-links_logo'>
+                    <img src={logo} alt="logo"/>
+                </div>
+                <div className='navbar-links_container'>
+                    <p><a href="#home">Home</a></p>
+                    <p><a href="#portfolio">Portfolio</a></p>
+                    <p><a href="#about">About me</a></p>
+                    <p><a href="#clients">Clients</a></p>
+                </div>
+                <div className='navbar-contact'>
+                    <button className='navbar-contact-button'>
+                        <img src={messageLogo} alt="" className='navbar-contact-button-image'/>
+                        Contact Me
+                    </button>
+                </div>
             </div>
-            <button className='desktopMenuButton'>
-                <img src={messageLogo} alt="" className='desktopMenuImage'/>
-                Contact Me
-            </button>
-        </nav>
+        </div>
     )
 }
 
