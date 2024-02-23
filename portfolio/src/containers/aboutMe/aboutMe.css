@@ -66,6 +66,18 @@
     margin-top: 2rem;
 }
 
+.aboutme-container .features-container_feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+.aboutme-container .features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
 @media screen and (max-width: 850px) {
     .aboutme-heading {
         flex-direction: column;
@@ -80,7 +92,7 @@
 
 @media screen and (max-width: 650px) {
     /* Customizing feature component as per needs */
-    .aboutme-feature .features-container__feature {
+    .aboutme-feature .features-container_feature {
         flex-direction: column;
     }
 
@@ -97,7 +109,7 @@
 
 @media screen and (max-width: 350px) {
     /* Customizing feature component as per needs */
-    .aboutme-container .features-container__feature {
+    .aboutme-container .features-container_feature {
         margin: 1rem 0;
         min-width: 100%;
     }
