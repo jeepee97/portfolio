@@ -1,11 +1,34 @@
-import React from 'react'
+import React from 'react';
 import './header.css'
+import background from '../../assets/ChangeMe.jpg'
+import buttonImage from '../../assets/messageLogo2.png'
+import {Link} from 'react-scroll'
 
 const Header = () => {
     return (
-        <div>
-            HEADER
+        <div className='header section_padding' id='home'>
+            <div className='header-content'>
+                <h1 className='gradient__text'> Let's build something amazing</h1>
+                <div className='header-content_input'>
+                    <input type='email' placeholder='your email address'/>
+                    <button></button>
+                </div>
+            </div>
+
         </div>
+
+        // <section id="header">
+        //     <div className="introContent">
+        //         <span className='hello'>Hello,</span>
+        //         <span className='introText'>I'm
+        //             <span className='introName'> Jean-Philippe Anctil</span> <br/>
+        //             Computer engineering
+        //         </span>
+        //         <p className='introParagraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        //         <Link><button className="introButton"><img src={buttonImage} alt=""/>Hire me</button></Link>
+        //     </div>
+        //     <img src={background} alt="" className="background"/>
+        // </section>
     )
 }
 
