@@ -53,3 +53,15 @@
     border-radius: 2rem;
     margin: 1rem 0;
 }
+
+@media screen and (max-width:840px) {
+    .background {
+        right: -10vw;
+    }
+    .introContent {
+        font-size: 10vw;
+    }
+    .hello {
+        font-size: 4.5vw;
+    }
+}
