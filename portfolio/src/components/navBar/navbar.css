@@ -26,7 +26,7 @@
     flex-direction: row;
 }
 .navbar-contact {
-    flex: 3;
+    margin-left:auto;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -117,17 +117,23 @@
 }
 
 @media screen and (max-width: 700px ) {
-    .navbar {
-        padding: 2rem 0.5rem;
-    }
+
 }
 
 @media screen and (max-width: 550px ) {
-    .navbar {
-        padding: 2rem 0.5rem;
-    }
-
     .navbar-contact {
         display: none;
+    }
+
+    .navbar-menu_container {
+        top: 20px;
+    }
+
+    .navbar-menu_container-links-contact {
+        display: block;
+    }
+
+    .navbar-menu {
+        margin-left:auto;
     }
 }
