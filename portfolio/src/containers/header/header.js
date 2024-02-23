@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css'
-import background from '../../assets/ChangeMe.jpg'
+import background from '../../assets/photo_comité.jpg'
+// import background from '../../assets/ChangeMe.jpg'
 
 const Header = () => {
     return (
