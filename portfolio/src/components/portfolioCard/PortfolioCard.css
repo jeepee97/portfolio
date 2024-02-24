@@ -27,7 +27,7 @@
     margin-top: 0.5rem;
 }
 .card-image {
-    margin-left: auto;
+    margin: 1rem;
     align-self: flex-end;
     display: flex;
     justify-content: center;

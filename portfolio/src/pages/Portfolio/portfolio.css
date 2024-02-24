@@ -12,3 +12,13 @@
 .portfolio-content .card {
     margin: 2rem 0;
 }
+
+.portfolio-content-reversed .card {
+    flex-direction: row-reverse;
+}
+.portfolio-content-reversed .card-image {
+    margin-right: auto;
+}
+.portfolio-content-normal .card-image {
+    margin-left: auto;
+}
