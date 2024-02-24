@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { useNavigate } from 'react-router-dom';
 import logo from '../../assets/MainLogo.png'
 import messageLogo from '../../assets/MessageLogo.png'
 
@@ -30,6 +31,7 @@ const Menu = () => (
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
+    const navigate = useNavigate();
     return (
         <div className="navbar">
             <div className='navbar-links'>
@@ -40,7 +42,7 @@ const Navbar = () => {
                     <Menu/>
                 </div>
                 <div className='navbar-contact'>
-                    <button className='navbar-contact-button'>
+                    <button className='navbar-contact-button' onClick={() => navigate('/contact')}>
                         <img src={messageLogo} alt="" className='navbar-contact-button-image'/>
                         Contact Me
                     </button>
