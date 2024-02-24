@@ -5,9 +5,11 @@ import { EmailInfo } from '../../containers'
 
 const ContactMe = () => {
     return (
-        <div className="home">
-            <div className='home-content gradient__bg'>
+        <div className="contact">
+            <div className='contact-navbar gradient__bg'>
                 <Navbar/>
+            </div>
+            <div className='contact-content section__margin'>
                 <EmailInfo/>
             </div>
         </div>
