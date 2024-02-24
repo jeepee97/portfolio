@@ -26,6 +26,26 @@
     color: var(--color-text);
     margin-top: 1.5rem;
 }
+.header-content  button {
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    left: 1153px;
+    top: 55px;
+
+    background: var(--color-orange);
+    border-radius: 2rem;
+
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
 
 .header-image {
     flex: 1;
@@ -34,6 +54,7 @@
     align-items: center;
 }
 .header-image img{
+    object-fit: cover;
     width: 80%;
     height: 100%;
 }
