@@ -29,4 +29,11 @@ pour designer des site web et des applications, alors j'ai commencé par me fair
 que je ne sois pas un designer, j'aime que mes projets soient beau, intuitif et facile d'utilisation alors je me renseigne régulièrement sur \
 les tendances en design.";
 export const TextPokemon = "J'ai travaillé à quelques reprises avec Unity et Unreal, autant par plaisir que dans le cadre de compétitions \
-";
+informatiques. Dernièrement, j'ai voulu me mettre au défis de programmer un jeu du style de pokemon. J'avais simplement comme objectif \
+de me remettre à jour avec le développement de jeux vidéos, et pousser mes connaissances un peu plus loins. Par exemple, j'ai donc créer \
+des animations, des menus, etc. J'ai même créer mon propres pixel art avec le logiciel Aseprite.";
+export const TextAppMobile = "";
+export const TextImageRecognition = "";
+export const TextBlockchain = "";
+export const TextWater = "";
+export const TextPathFinding = "";
