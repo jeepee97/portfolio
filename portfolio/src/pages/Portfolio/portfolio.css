@@ -13,6 +13,12 @@
     margin: 2rem 0;
 }
 
+.portfolio-content-normal {
+    width: 100%;
+}
+.portfolio-content-reversed {
+    width: 100%;
+}
 .portfolio-content-reversed .card {
     flex-direction: row-reverse;
 }
