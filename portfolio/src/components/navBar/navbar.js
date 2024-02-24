@@ -9,10 +9,22 @@ import {Link} from 'react-scroll';
 
 const Menu = () => (
     <>
-    <p><a href="/">Home</a></p>
-    <p><a href="/about">About me</a></p>
-    <p><a href="/portfolio">Portfolio</a></p>
-    <p><a href="/clients">Clients</a></p>
+    <div className='navbar-links_link'>
+        <p><a href="/">Home</a></p>
+        <div/>
+    </div>
+    <div className='navbar-links_link'>
+        <p><a href="/about">About me</a></p>
+        <div/>
+    </div>
+    <div className='navbar-links_link'>
+        <p><a href="/portfolio">Portfolio</a></p>
+        <div/>
+    </div>
+    <div className='navbar-links_link'>
+        <p><a href="/clients">Clients</a></p>
+        <div/>
+    </div>
     </>
 )
 
