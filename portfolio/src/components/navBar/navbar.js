@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from '../../assets/BasicLogo.png'
+import logo from '../../assets/MainLogo.png'
 import messageLogo from '../../assets/MessageLogo.png'
 
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
