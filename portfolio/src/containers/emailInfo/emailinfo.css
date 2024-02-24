@@ -1,4 +1,4 @@
-.emailform {
+.email {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,14 @@
     padding: 2rem;
     background: rgba(4, 44, 84, 1);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.emailform {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
 }
 
 .emailform-header {

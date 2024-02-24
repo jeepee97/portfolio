@@ -7,10 +7,6 @@ import 'react-toastify/dist/ReactToastify.css';
 const EmailInfo = () => {
   const form = useRef();
 
-  const test = () => {
-    toast("test!!!");
-  }
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -20,7 +16,16 @@ const EmailInfo = () => {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          toast.success('your email has been sent', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored"
+            });
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -31,8 +36,8 @@ const EmailInfo = () => {
   };
 
   return (
-    <div>
-    <form className='emailform' ref={form} onSubmit={test}>
+    <div className='email'>
+    <form className='emailform' ref={form} onSubmit={sendEmail}>
         <div className='emailform-header'>
             <div className='emailform-header-name'>
                 <input type="text" name="user_name" placeholder='Name'/>
@@ -48,7 +53,17 @@ const EmailInfo = () => {
             <input type="submit" value="Send" />
         </div>
     </form>
-<ToastContainer/>
+    <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"/>
     </div>
   );
 };
