@@ -1,8 +1,37 @@
 .card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
 
     padding: 2rem;
-    background: var(--color-footer);
+    background: rgba(4, 44, 84, 1);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card-content {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card-content .features-container_feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+.card-content .features-container_feature-text {
+    margin-top: 0.5rem;
+}
+.card-image {
+    margin-left: auto;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+}
+.card-image img{
+    width: 200px;
+    height: 200px;
 }
