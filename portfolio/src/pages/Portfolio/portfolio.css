@@ -28,3 +28,17 @@
 .portfolio-content-normal .card-image {
     margin-left: auto;
 }
+
+@media screen and (max-width: 1000px) {
+    .portfolio-content-reversed .card {
+        flex-direction: column;
+    }
+    .portfolio-content-reversed .card-image {
+        align-content: center;
+        margin-right: 1rem;
+    }
+    .portfolio-content-normal .card-image {
+        margin-left: 1rem;
+        align-content: center;
+    }
+}
