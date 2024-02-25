@@ -10,7 +10,7 @@ const Header = () => {
         <div className='header section__padding' id='home'>
             <div className='header-content'>
                 <h1 className='gradient__text'> Construisons quelque chose d'incroyable</h1>
-                <p>Bonjour, je m'appelle Jean-Philippe Anctil. J'évolue dans le domaine de l'ingénierie informatique depuis 2021 et je suis là pour faire de vos projets une réalité.</p>
+                <p>Bonjour, je m'appelle Jean-Philippe Anctil. J'évolue dans le domaine de l'ingénierie informatique depuis 2021 et je suis là pour concrétiser vos projets.</p>
             </div>
             <div className='header-image'>
                 <img src={background} alt="background"/>

@@ -8,7 +8,7 @@ const CV = () => {
     return (
         <div className='cv section__margin' id='about'>
             <div className="cv-heading">
-                <h1 className="gradient__text">Diverse formations académiques</h1>
+                <h1 className="gradient__text">Formations académiques</h1>
             </div>
             <div className='cv-container'>
                 <Feature title={TitleMathematiques} text={TextMathematiques}/>
