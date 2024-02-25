@@ -1,23 +1,19 @@
 import React from 'react'
 import './cv.css'
 import { Feature } from '../../components'
-import { TitleFormationAcademique, TitleGestion, TitleIngenerieInformatique, TitleUnknown, LoremIpsum,
-    TextFormationAcademique, TextGestion, TextIngenerieInformatique } from '../../text'
+import { TitleFormationAcademique, TitleManagement, TitleIngenerieInformatique, TitleMathematiques, LoremIpsum,
+    TextFormationAcademique, TextManagement, TextIngenerieInformatique, TextMathematiques } from '../../text'
 
 const CV = () => {
     return (
         <div className='cv section__margin' id='about'>
-            <div className='cv-feature'>
-                <Feature title={TitleFormationAcademique} text={TextFormationAcademique}/>
-            </div>
             <div className="cv-heading">
-                <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
-                <p>Explore the library</p>
+                <h1 className="gradient__text">Diverse formations académiques</h1>
             </div>
             <div className='cv-container'>
-                <Feature title={TitleUnknown} text={LoremIpsum}/>
+                <Feature title={TitleMathematiques} text={TextMathematiques}/>
                 <Feature title={TitleIngenerieInformatique} text={TextIngenerieInformatique}/>
-                <Feature title={TitleGestion} text={TextGestion}/>
+                <Feature title={TitleManagement} text={TextManagement}/>
             </div>
         </div>
     )
