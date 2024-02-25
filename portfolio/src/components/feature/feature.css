@@ -33,7 +33,6 @@
 
 .features-container_feature-text {
     flex:2;
-    max-width: 800px;
     display: flex;
 }
 

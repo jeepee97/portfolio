@@ -18,25 +18,25 @@ const Portfolio = () => {
                     <PortfolioCard title="Site web" image={WebsiteImage} text={TextSiteWeb}/>
                 </div>
                 <div className="portfolio-content-reversed">
-                    <PortfolioCard title="Pokemon" image={PokemonImage} text={TextPokemon}/>
+                    <PortfolioCard title="Jeu vidéo" image={PokemonImage} text={TextPokemon}/>
                 </div>
                 <div className="portfolio-content-normal">
-                    <PortfolioCard title="Application Mobile" image={AppImage} text={TextAppMobile}/>
+                    <PortfolioCard title="Application Mobile & serveur" image={AppImage} text={TextAppMobile}/>
                 </div>
 
-
-                <div className="portfolio-content-normal">
+{/* 
+                <div className="portfolio-content-reversed">
                     <PortfolioCard title="Reconnaissance d'image" image={WebsiteImage} text={TextImageRecognition}/>
                 </div>
-                <div className="portfolio-content-reversed">
+                <div className="portfolio-content-normal">
                     <PortfolioCard title="Blockchain" image={WebsiteImage} text={TextBlockchain}/>
                 </div>
-                <div className="portfolio-content-normal">
+                <div className="portfolio-content-reversed">
                     <PortfolioCard title="Déversement d'eaux usées" image={WebsiteImage} text={TextWater}/>
                 </div>
-                <div className="portfolio-content-reversed">
+                <div className="portfolio-content-normal">
                     <PortfolioCard title="Pathfinding" image={WebsiteImage} text={TextPathFinding}/>
-                </div>
+                </div> */}
             </div>
         </div>
     )
