@@ -8,26 +8,30 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import {Link} from 'react-scroll';
 
-const Menu = () => (
-    <>
-    <div className='navbar-links_link'>
-        <p><a href="/">Acceuil<div/></a></p>
-    </div>
-    <div className='navbar-links_link'>
-        <p><a href="/about">À propos de moi<div/></a></p>
-    </div>
-    <div className='navbar-links_link'>
-        <p><a href="/portfolio">Portfolio<div/></a></p>
-    </div>
-    <div className='navbar-links_link'>
-        <p><a href="/clients">Clients<div/></a></p>
-    </div>
-    </>
-)
-
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     const navigate = useNavigate();
+
+    const Menu = () => (
+        <>
+        <button className='navbar-links_link' onClick={() => navigate('/')}>
+            Accueil
+            <div/>
+        </button>
+        <button className='navbar-links_link' onClick={() => navigate('/about')}>
+            À propos de moi
+            <div/>
+        </button>
+        <button className='navbar-links_link' onClick={() => navigate('/portfolio')}>
+            Portfolio
+            <div/>
+        </button>
+        <button className='navbar-links_link' onClick={() => navigate('/clients')}>
+            Clients
+            <div/>
+        </button>
+        </>
+    )
     return (
         <div className="navbar">
             <div className='navbar-links'>
@@ -52,7 +56,7 @@ const Navbar = () => {
                             <div className='navbar-menu_container-links'>
                                 <Menu/>
                                 <div className='navbar-menu_container-links-contact'>
-                                    <button className='navbar-contact-button'>
+                                    <button className='navbar-contact-button' onClick={() => navigate('/contact')}>
                                         Me contacter
                                     </button>
                                 </div>

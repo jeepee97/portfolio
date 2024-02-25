@@ -26,6 +26,21 @@
     flex-direction: row;
 }
 .navbar-links_link{
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    left: 1153px;
+    top: 55px;
+
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
     margin: 0 1rem;
     text-decoration: none;
 }
