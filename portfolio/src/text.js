@@ -37,3 +37,15 @@ export const TextImageRecognition = "";
 export const TextBlockchain = "";
 export const TextWater = "";
 export const TextPathFinding = "";
+
+
+////////// Clients //////////
+export const TextLiggo = "Liggo est une plateforme de gestion de la production manufacturière. Elle connecte les utilisateurs, les systèmes \
+et la machinerie. En tant que développeur logiciel chez liggo, j'ai participé à la conception de nouvelles fonctionnalité et au maintient de celles \
+existante, principalement en C#";
+export const Dot1Liggo = "J'ai réparer une partie du coeur de l'application en démontrant que le workflow tel que définie par la documentation \
+ne correspondait pas au fonctionnement réel de l'application"
+export const Dot2Liggo = "J'ai améliorer l'expérience utilisateur en uniformisant l'interface utilisateur, en modernisant le style de \
+l'application et en rendant son utilisation intuitive"
+export const Dot3Liggo = "J'ai participé à la clarification des requis du client en aidant le chef de projet dans l'écriture des requis, \
+la mise en place des sprints et des échéanciers"

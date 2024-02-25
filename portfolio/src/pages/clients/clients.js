@@ -9,7 +9,7 @@ import CEGInfoLogo from '../../assets/logo_mtlgaymers.png'
 import PolytechniqueLogo from '../../assets/logo_mtlgaymers.png'
 import BombarderLogo from '../../assets/logo_mtlgaymers.png'
 import { Navbar, ClientCard } from '../../components'
-import { LoremIpsum } from '../../text'
+import { LoremIpsum, TextLiggo, Dot1Liggo, Dot2Liggo, Dot3Liggo } from '../../text'
 
 const Clients = () => {
     return (
@@ -19,7 +19,15 @@ const Clients = () => {
             </div>
             <div className='clients-content section__margin'>
                 <div className='clients-content-normal'>
-                    <ClientCard image={LiggoLogo} compagnie="Liggo" role='Développeur logiciel' text={LoremIpsum}/>
+                    <ClientCard 
+                        image={LiggoLogo} 
+                        compagnie="Liggo" 
+                        role='Développeur logiciel' 
+                        text={TextLiggo}
+                        dot1={Dot1Liggo}
+                        dot2={Dot2Liggo}
+                        dot3={Dot3Liggo}
+                        />
                 </div>
                 <div className='clients-content-normal'>
                     <ClientCard image={MtlgaymerLogo} compagnie="Montreal Gaymer" role="Trésorier du conseil d'administration" text={LoremIpsum}/>

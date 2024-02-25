@@ -47,16 +47,17 @@
     flex:2;
     max-width: 800px;
     display: flex;
+    flex-direction: column;
 }
 
 .clientFeatures-container_feature-text p {
+    margin: 0.5rem 0;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
     color: var(--color-text);
 }
-
 @media screen and (max-width: 550px) {
     .clientFeatures-container_feature.title h1 {
         font-size: 14px;

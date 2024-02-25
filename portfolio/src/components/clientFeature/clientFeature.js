@@ -1,7 +1,7 @@
 import React from 'react'
 import './clientFeature.css'
 
-const ClientFeature = ({compagnie, role, text}) => {
+const ClientFeature = ({compagnie, role, text, dot1, dot2, dot3}) => {
     return (
         <div className='clientFeatures-container_feature'>
             <div className='clientFeatures-container_feature-title'>
@@ -13,6 +13,9 @@ const ClientFeature = ({compagnie, role, text}) => {
             </div>
             <div className='clientFeatures-container_feature-text'>
                 <p>{text}</p>
+                <p>&#x2022; {dot1}</p>
+                <p>&#x2022; {dot2}</p>
+                <p>&#x2022; {dot3}</p>
             </div>
         </div>
     )
