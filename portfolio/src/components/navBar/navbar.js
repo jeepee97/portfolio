@@ -11,11 +11,11 @@ import {Link} from 'react-scroll';
 const Menu = () => (
     <>
     <div className='navbar-links_link'>
-        <p><a href="/">Home</a></p>
+        <p><a href="/">Acceuil</a></p>
         <div/>
     </div>
     <div className='navbar-links_link'>
-        <p><a href="/about">About me</a></p>
+        <p><a href="/about">À propos de moi</a></p>
         <div/>
     </div>
     <div className='navbar-links_link'>
