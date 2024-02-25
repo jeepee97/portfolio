@@ -32,6 +32,12 @@ const Navbar = () => {
         </button>
         </>
     )
+    const Contact = () => (
+        <button className='navbar-contact-button' onClick={() => navigate('/contact')}>
+            Me contacter
+        </button>
+    )
+
     return (
         <div className="navbar">
             <div className='navbar-links'>
@@ -42,9 +48,7 @@ const Navbar = () => {
                     <Menu/>
                 </div>
                 <div className='navbar-contact'>
-                    <button className='navbar-contact-button' onClick={() => navigate('/contact')}>
-                        Me contacter
-                    </button>
+                    <Contact/>
                 </div>
                 <div className='navbar-menu'>
                     {toggleMenu 
@@ -56,9 +60,7 @@ const Navbar = () => {
                             <div className='navbar-menu_container-links'>
                                 <Menu/>
                                 <div className='navbar-menu_container-links-contact'>
-                                    <button className='navbar-contact-button' onClick={() => navigate('/contact')}>
-                                        Me contacter
-                                    </button>
+                                    <Contact/>
                                 </div>
                             </div>
                         </div>

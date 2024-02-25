@@ -83,8 +83,7 @@
     text-decoration: none;
 }
 
-.navbar-contact button,
-.navbar-menu_container button {
+.navbar-contact-button {
     padding: 0.5rem 1rem;
     color: white;
     font-family: var(--font-family);
@@ -129,7 +128,7 @@
     top: 40px;
     right: 0;
     margin-top: 1rem;
-    min-width: 210px;
+    min-width: 250px;
     border-radius: 5px;
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
 }
@@ -140,6 +139,9 @@
 
 .navbar-menu_container-links-contact {
     display: none;
+}
+.navbar-menu_container-links button {
+    margin-top: 1rem;
 }
 
 @media screen and (max-width: 1050px ) {
