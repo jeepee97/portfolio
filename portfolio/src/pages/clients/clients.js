@@ -9,7 +9,11 @@ import CEGInfoLogo from '../../assets/logo_mtlgaymers.png'
 import PolytechniqueLogo from '../../assets/logo_mtlgaymers.png'
 import BombarderLogo from '../../assets/logo_mtlgaymers.png'
 import { Navbar, ClientCard } from '../../components'
-import { LoremIpsum, TextLiggo, Dot1Liggo, Dot2Liggo, Dot3Liggo } from '../../text'
+import { LoremIpsum,
+    TextLiggo, Dot1Liggo, Dot2Liggo, Dot3Liggo,
+    TextMtlGaymers, Dot1MtlGaymers, Dot2MtlGaymers, Dot3MtlGaymers,
+    TextPositron, Dot1Positron, Dot2Positron, Dot3Positron,
+    TextTelcobridges, Dot1Telcobridges, Dot2Telcobridges, Dot3Telcobridges } from '../../text'
 
 const Clients = () => {
     return (
@@ -29,25 +33,48 @@ const Clients = () => {
                         dot3={Dot3Liggo}
                         />
                 </div>
-                <div className='clients-content-normal'>
-                    <ClientCard image={MtlgaymerLogo} compagnie="Montreal Gaymer" role="Trésorier du conseil d'administration" text={LoremIpsum}/>
+                <div className='clients-content-reversed'>
+                    <ClientCard 
+                        image={MtlgaymerLogo}
+                        compagnie="Montreal Gaymers" 
+                        role="Trésorier du conseil d'administration" 
+                        text={TextMtlGaymers}
+                        dot1={Dot1MtlGaymers}
+                        dot2={Dot2MtlGaymers}
+                        dot3={Dot3MtlGaymers}/>
                 </div>
                 <div className='clients-content-normal'>
-                    <ClientCard image={PositronLogo} compagnie="PositronAccess" role="Développeur logiciel" text={LoremIpsum}/>
+                    <ClientCard
+                        image={PositronLogo}
+                        compagnie="PositronAccess"
+                        role="Développeur logiciel"
+                        text={TextPositron}
+                        dot1={Dot1Positron}
+                        dot2={Dot2Positron}
+                        dot3={Dot3Positron}
+                        />
                 </div>
-                <div className='clients-content-normal'>
-                    <ClientCard image={TelcoBridgeLogo} compagnie="TelcoBridge" role="Développeur logiciel" text={LoremIpsum}/>
+                <div className='clients-content-reversed'>
+                    <ClientCard
+                        image={TelcoBridgeLogo}
+                        compagnie="TelcoBridge"
+                        role="Développeur logiciel"
+                        text={TextTelcobridges}
+                        dot1={Dot1Telcobridges}
+                        dot2={Dot2Telcobridges}
+                        dot3={Dot3Telcobridges}
+                        />
                 </div>
                 <div className='clients-content-normal'>
                     <ClientCard image={AEPLogo} compagnie="AEP" role="Member du conseil central" text={LoremIpsum}/>
                 </div>
-                <div className='clients-content-normal'>
+                <div className='clients-content-reversed'>
                     <ClientCard image={CEGInfoLogo} compagnie="CEGInfo" role="Président & VP-éducation" text={LoremIpsum}/>
                 </div>
                 <div className='clients-content-normal'>
                     <ClientCard image={PolytechniqueLogo} compagnie="Polytechnique Montréal" role="Chargé de cours"  text={LoremIpsum}/>
                 </div>
-                <div className='clients-content-normal'>
+                <div className='clients-content-reversed'>
                     <ClientCard image={LiggoLogo} compagnie="" role="Stage en développement logiciel"  text={LoremIpsum}/>
                 </div>
                 <div className='clients-content-normal'>
