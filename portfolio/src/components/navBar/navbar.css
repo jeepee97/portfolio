@@ -27,6 +27,7 @@
 }
 .navbar-links_link{
     margin: 0 1rem;
+    text-decoration: none;
 }
 
 .navbar-links_link div {
@@ -61,11 +62,10 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-    text-transform: capitalize;
 
     cursor: pointer;
 }
-.navbar-links_container a {
+.navbar-links_link a {
     text-decoration: none;
 }
 
@@ -106,6 +106,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
+    z-index: 1;
 
     text-align: end;
     background: var(--color-footer);
