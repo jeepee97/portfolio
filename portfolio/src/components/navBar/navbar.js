@@ -11,20 +11,16 @@ import {Link} from 'react-scroll';
 const Menu = () => (
     <>
     <div className='navbar-links_link'>
-        <p><a href="/">Acceuil</a></p>
-        <div/>
+        <p><a href="/">Acceuil<div/></a></p>
     </div>
     <div className='navbar-links_link'>
-        <p><a href="/about">À propos de moi</a></p>
-        <div/>
+        <p><a href="/about">À propos de moi<div/></a></p>
     </div>
     <div className='navbar-links_link'>
-        <p><a href="/portfolio">Portfolio</a></p>
-        <div/>
+        <p><a href="/portfolio">Portfolio<div/></a></p>
     </div>
     <div className='navbar-links_link'>
-        <p><a href="/clients">Clients</a></p>
-        <div/>
+        <p><a href="/clients">Clients<div/></a></p>
     </div>
     </>
 )
@@ -43,8 +39,7 @@ const Navbar = () => {
                 </div>
                 <div className='navbar-contact'>
                     <button className='navbar-contact-button' onClick={() => navigate('/contact')}>
-                        <img src={messageLogo} alt="" className='navbar-contact-button-image'/>
-                        Contact Me
+                        Me contacter
                     </button>
                 </div>
                 <div className='navbar-menu'>
@@ -58,8 +53,7 @@ const Navbar = () => {
                                 <Menu/>
                                 <div className='navbar-menu_container-links-contact'>
                                     <button className='navbar-contact-button'>
-                                        <img src={messageLogo} alt="" className='navbar-contact-button-image'/>
-                                        Contact Me
+                                        Me contacter
                                     </button>
                                 </div>
                             </div>

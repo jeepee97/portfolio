@@ -40,10 +40,10 @@ const EmailInfo = () => {
     <form className='emailform' ref={form} onSubmit={sendEmail}>
         <div className='emailform-header'>
             <div className='emailform-header-name'>
-                <input type="text" name="user_name" placeholder='Name'/>
+                <input type="text" name="user_name" placeholder='Votre nom'/>
             </div>
             <div className='emailform-header-email'>
-                <input type="email" name="user_email" placeholder='Email' />
+                <input type="email" name="user_email" placeholder='Votre courriel' />
             </div>
         </div>
         <div className='emailform-message'>
