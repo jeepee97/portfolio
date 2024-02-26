@@ -9,7 +9,7 @@
     height: 100%;
 }
 
-.clients-content .card {
+.clients-content .clientCard {
     margin: 2rem 0;
 }
 
@@ -19,25 +19,25 @@
 .clients-content-reversed {
     width: 100%;
 }
-.clients-content-reversed .card {
+.clients-content-reversed .clientCard {
     flex-direction: row-reverse;
 }
-.clients-content-reversed .card-image {
+.clients-content-reversed .clientCard-image {
     margin-right: auto;
 }
-.clients-content-normal .card-image {
+.clients-content-normal .clientCard-image {
     margin-left: auto;
 }
 
 @media screen and (max-width: 1000px) {
-    .clients-content-reversed .card {
+    .clients-content-reversed .clientCard {
         flex-direction: column;
     }
-    .clients-content-reversed .card-image {
+    .clients-content-reversed .clientCard-image {
         align-content: center;
         margin-right: 1rem;
     }
-    .clients-content-normal .card-image {
+    .clients-content-normal .clientCard-image {
         margin-left: 1rem;
         align-content: center;
     }

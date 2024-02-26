@@ -41,3 +41,14 @@ export const TextTelcobridges = "Telcobridges offre des logiciels et du matérie
 export const Dot1Telcobridges = "Embauche et intégration de 2 stagiaires et 1 nouvel employé, ainsi que la création de séances de formation pour facilité la compréhension du produit."
 export const Dot2Telcobridges = "Mise en place des échéanciers, des objectifs et de la répartition des tâches lors d'un projet de développement d'une nouvelle technologie"
 export const Dot3Telcobridges = "Maintenance de l'application en participant à la résolution de différents bugs et au développement de nouvelles fonctionnalité principalement en C++"
+
+export const TextAEP = "Élu comme conseillé au sein du conseil central de l’association étudiante de Polytechnique, mon rôle est de prendre connaissance des dossiers touchants la communauté étudiante et de conseiller les membres du comité de coordination sur les démarches à suivre"
+export const Dot1AEP = "Donnez des opinions éclairées sur différents enjeux"
+export const Dot2AEP = "Respecter le code de procédure lors d’instances officielles"
+export const Dot3AEP = "Être autodidacte et se renseigner sur les enjeux de la communauté étudiante"
+
+export const TextCEGInfo = ""
+export const Dot1CEGInfo = ""
+export const Dot2CEGInfo = ""
+export const Dot3CEGInfo = ""
+
