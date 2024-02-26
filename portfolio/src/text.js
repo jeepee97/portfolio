@@ -22,7 +22,7 @@ export const TextPathFinding = "";
 
 
 ////////// Clients //////////
-export const TextLiggo = "Liggo est une plateforme de gestion de la production manufacturière qui connecte les utilisateurs, les systèmes et la machinerie. En tant que développeur logiciel chez liggo, j'ai contribué à la conception de nouvelles fonctionnalité et au maintient de celles existante, principalement en C#";
+export const TextLiggo = "Liggo est une plateforme de gestion de la production manufacturière qui connecte les utilisateurs, les systèmes et la machinerie. En tant que développeur logiciel chez liggo, j'ai contribué à la conception de nouvelles fonctionnalité et au maintient de celles existantes, principalement en C#";
 export const Dot1Liggo = "Réparation d'une partie cruciale de l'application en démontrant que le flux de travail, tel que défini par la documentation, ne correspondait pas au fonctionnement réel de l'application"
 export const Dot2Liggo = "Amélioration de l'expérience utilisateur en uniformisant l'interface graphique, en modernisant le style de l'application et en rendant son utilisation plus intuitive"
 export const Dot3Liggo = "Participation à la clarification des besoins du client en assistant le chef de projet dans la rédaction des spécifications, la planification des sprints et des échéanciers"
@@ -47,8 +47,8 @@ export const Dot1AEP = "Donnez des opinions éclairées sur différents enjeux"
 export const Dot2AEP = "Respecter le code de procédure lors d’instances officielles"
 export const Dot3AEP = "Être autodidacte et se renseigner sur les enjeux de la communauté étudiante"
 
-export const TextCEGInfo = ""
-export const Dot1CEGInfo = ""
-export const Dot2CEGInfo = ""
-export const Dot3CEGInfo = ""
+export const TextCEGInfo = "Je me suis longtemps impliqué au sein du comité étudiant en génie informatique (CEGInfo). Élu d'abord comme vice-président à l'éducation (VP-éduc) et ensuite comme président, j'ai défendu les intérêts des étudiants et j'ai organisé de nombreuse activités avec les autres membres du comité."
+export const Dot1CEGInfo = "Mise en place de réseau de communication efficace afin de bien communiquer aux étudiants la démarche à suivre au début de la crise de la covid-19"
+export const Dot2CEGInfo = "Représenter les intérêts des étudiants en génie informatique au sein de différentes instances"
+export const Dot3CEGInfo = "Coordonner le travail des membres du comité"
 

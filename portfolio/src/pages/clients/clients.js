@@ -38,7 +38,7 @@ const Clients = () => {
                 <div className='clients-content-reversed'>
                     <ClientCard 
                         image={MtlgaymerLogo}
-                        compagnie="Montreal Gaymers" 
+                        compagnie="Montréal Gaymers" 
                         role="Trésorier du conseil d'administration" 
                         text={TextMtlGaymers}
                         dot1={Dot1MtlGaymers}
@@ -48,7 +48,7 @@ const Clients = () => {
                 <div className='clients-content-normal'>
                     <ClientCard
                         image={PositronLogo}
-                        compagnie="PositronAccess"
+                        compagnie="Positron Access Solution"
                         role="Développeur logiciel"
                         text={TextPositron}
                         dot1={Dot1Positron}
@@ -59,7 +59,7 @@ const Clients = () => {
                 <div className='clients-content-reversed'>
                     <ClientCard
                         image={TelcoBridgeLogo}
-                        compagnie="TelcoBridge"
+                        compagnie="TelcoBridges"
                         role="Développeur logiciel"
                         text={TextTelcobridges}
                         dot1={Dot1Telcobridges}
