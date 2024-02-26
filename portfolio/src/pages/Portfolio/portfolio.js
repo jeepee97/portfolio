@@ -4,6 +4,7 @@ import WebsiteImage from '../../assets/website.png'
 import PokemonImage from '../../assets/pokemon.png'
 import AppImage from '../../assets/app.jpg'
 import ImageRecognition from '../../assets/ImageRecognitionExample.png'
+import BlockchainDesktop from '../../assets/blockchain_desktop_menu.png'
 import { LoremIpsum, TextSiteWeb, TextPokemon, TextAppMobile, TextBlockchain, TextImageRecognition, TextPathFinding, TextWater } from '../../text'
 import { Navbar, PortfolioCard } from '../../components'
 import { CV } from '../../containers'
@@ -27,11 +28,11 @@ const Portfolio = () => {
                 <div className="portfolio-content-reversed">
                     <PortfolioCard title="Reconnaissance de formes" image={ImageRecognition} text={TextImageRecognition}/>
                 </div>
+                <div className="portfolio-content-normal">
+                    <PortfolioCard title="Blockchain" image={BlockchainDesktop} text={TextBlockchain}/>
+                </div>
 
 {/* 
-                <div className="portfolio-content-normal">
-                    <PortfolioCard title="Blockchain" image={WebsiteImage} text={TextBlockchain}/>
-                </div>
                 <div className="portfolio-content-reversed">
                     <PortfolioCard title="Déversement d'eaux usées" image={WebsiteImage} text={TextWater}/>
                 </div>
