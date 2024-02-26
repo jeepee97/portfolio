@@ -16,7 +16,7 @@ const EmailInfo = () => {
       })
       .then(
         () => {
-          toast.success('your email has been sent', {
+          toast.success('Votre message a été envoyé', {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -50,7 +50,7 @@ const EmailInfo = () => {
             <textarea name="message" placeholder='Message'/>
         </div>
         <div className='emailform-send'>
-            <input type="submit" value="Send" />
+            <input type="submit" value="Envoyer" />
         </div>
     </form>
     <ToastContainer

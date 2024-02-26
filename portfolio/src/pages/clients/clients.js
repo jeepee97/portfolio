@@ -65,7 +65,7 @@ const Clients = () => {
                         dot3={Dot3Telcobridges}
                         />
                 </div>
-                <div className='clients-content-normal'>
+                {/* <div className='clients-content-normal'>
                     <ClientCard image={AEPLogo} compagnie="AEP" role="Member du conseil central" text={LoremIpsum}/>
                 </div>
                 <div className='clients-content-reversed'>
@@ -79,7 +79,7 @@ const Clients = () => {
                 </div>
                 <div className='clients-content-normal'>
                     <ClientCard image={BombarderLogo} compagnie="Bombardier" role="Stage en développement logiciel"  text={LoremIpsum}/>
-                </div>
+                </div> */}
             </div>
         </div>
     )

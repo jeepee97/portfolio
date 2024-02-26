@@ -3,6 +3,7 @@ import './portfolio.css'
 import WebsiteImage from '../../assets/website.png'
 import PokemonImage from '../../assets/pokemon.png'
 import AppImage from '../../assets/app.jpg'
+import ImageRecognition from '../../assets/ImageRecognitionExample.png'
 import { LoremIpsum, TextSiteWeb, TextPokemon, TextAppMobile, TextBlockchain, TextImageRecognition, TextPathFinding, TextWater } from '../../text'
 import { Navbar, PortfolioCard } from '../../components'
 import { CV } from '../../containers'
@@ -23,11 +24,11 @@ const Portfolio = () => {
                 <div className="portfolio-content-normal">
                     <PortfolioCard title="Application Mobile & serveur" image={AppImage} text={TextAppMobile}/>
                 </div>
+                <div className="portfolio-content-reversed">
+                    <PortfolioCard title="Reconnaissance de formes" image={ImageRecognition} text={TextImageRecognition}/>
+                </div>
 
 {/* 
-                <div className="portfolio-content-reversed">
-                    <PortfolioCard title="Reconnaissance d'image" image={WebsiteImage} text={TextImageRecognition}/>
-                </div>
                 <div className="portfolio-content-normal">
                     <PortfolioCard title="Blockchain" image={WebsiteImage} text={TextBlockchain}/>
                 </div>
@@ -36,7 +37,11 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolio-content-normal">
                     <PortfolioCard title="Pathfinding" image={WebsiteImage} text={TextPathFinding}/>
-                </div> */}
+                </div> 
+                <div className="portfolio-content-reversed">
+                    <PortfolioCard title="Discord bot" image={WebsiteImage} text={TextWater}/>
+                </div>
+*/}
             </div>
         </div>
     )
